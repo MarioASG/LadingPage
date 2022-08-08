@@ -2,7 +2,7 @@
     width: 60px;
 }
 .container-fluid {
-    background-color: rgb(57, 56, 56);
+    background-color: #073154;
     width: 100%;
     margin: auto;
 }
@@ -12,9 +12,39 @@
 }
 
 main {
-    background-image: url(https://i.pinimg.com/736x/38/cb/8f/38cb8f08989990915d504c0e564ff13a.jpg);
+    background-image: url(https://images.unsplash.com/photo-1608009597797-13bc9b52cfb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c291bmQlMjBzdHVkaW98ZW58MHx8MHx8&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
     color: rgb(220, 228, 228);
     text-shadow: 0 3px rgb(16, 16, 16);
+}
+.jumbotron h1{
+    font-size: 60px;
+    padding: 20px;
+}
+.jumbotron li{
+    font-size: 20px;
+    padding: 3px;
+    text-decoration: none;
+}
+.btnenviar{
+    color: rgb(218, 226, 233);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    background-image: linear-gradient(to left, #0499c2, #071e54);
+}
+.btnenviar:hover {
+    background-position: right;
 }
