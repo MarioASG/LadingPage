@@ -1,0 +1,20 @@
+.container-fluid img {
+    width: 60px;
+}
+.container-fluid {
+    background-color: rgb(57, 56, 56);
+    width: 100%;
+    margin: auto;
+}
+.navbarText li {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+main {
+    background-image: url(https://i.pinimg.com/736x/38/cb/8f/38cb8f08989990915d504c0e564ff13a.jpg);
+}
+.jumbotron{
+    color: rgb(220, 228, 228);
+    text-shadow: 0 3px rgb(16, 16, 16);
+}
