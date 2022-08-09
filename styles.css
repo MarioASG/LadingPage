@@ -5,6 +5,8 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+/* HEADER */
 .container-fluid img {
     width: 60px;
 }
@@ -19,6 +21,7 @@
     margin: 0 10px;
 }
 
+/* JUMBOTRON */
 main {
     background-image: url(https://images.unsplash.com/photo-1608009597797-13bc9b52cfb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c291bmQlMjBzdHVkaW98ZW58MHx8MHx8&w=1000&q=80);
     background-position: center;
@@ -46,6 +49,7 @@ main {
 .enviarcorreo {
     display: flex;
     justify-content: center;
+
 }
 .contenedor {
     padding: 0 10px;
@@ -53,6 +57,7 @@ main {
 .correo{
     width: 500px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 10px;
 }
 .btnenviar{
     box-shadow: 0 15px 15px #071e54;
@@ -75,20 +80,53 @@ main {
     font-size: 15px;
 }
 
-.player1{
-    position: absolute;
-    width: 350px;
+/* MAINBLOG */
+.mainblog{
+    background: linear-gradient(to left, #afaeae, #fff, #afaeae);
+    padding: 30px;
+    padding-bottom: 200px;
+}
+.blogtitulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.blogtitulos h2{
+    font-size: 40px;
+    font-style: oblique;
+}
+.blogtitulos h3{
+    font-size: 25px;
+    color: #535353;
+    font-style: oblique;
+}
+.audios{
+    /* background: #000; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /* padding: 300px; */
+    margin: auto;
+    width: 1600px;
+
+}
+.player{
+    width: 400px;
     background: #f1f3f4;
     border-radius: 20px;
     box-shadow: 0 50px 80px #071e54;
 }
-.player1 .imgbox{
+.player .imgbox1{
     position: relative;
     width: 100%;
     height: 450px;
 }
-.player1 .imgbox img{
-    position: absolute;
+.player .imgbox img{
     top: 0;
     left: 0;
     width: 100%;
@@ -97,7 +135,24 @@ main {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.player audio{
+.audio{
     width: 100%;
     outline: none;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.audios h3{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.audios p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
