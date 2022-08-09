@@ -156,3 +156,47 @@ main {
 .audios p{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* SOMOS */
+.somos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #00beb1, #00ffee);
+    margin: auto;
+}
+.somostext{
+    padding: 0 200px;
+}
+.somostext h1{
+    font-weight: bold;
+}
+.somos img{
+    width: 900px;
+    height: 600px;
+}
+
+/* FOOTER */
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-content: center;
+    border-radius: 2px #000;
+}
+
+.empresa{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-bottom: 40px;
+}
+
+.ayuda{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.recursos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
