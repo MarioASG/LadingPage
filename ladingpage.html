@@ -12,8 +12,11 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
+          <div class="header1">
+            <div class="header2">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
+                  <h1>MS STUDIOS</h1>
                   <img src="https://w7.pngwing.com/pngs/87/368/png-transparent-soundbar-logo-equalization-music-sound-bars-angle-text-rectangle.png" alt="" >
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,10 +24,13 @@
                   <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Descubre la música</a>
+                        <a class="nav-link" href="#catalogo">Descubre la música</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Precios</a>
+                        <a class="nav-link" href="#quienesomos">¿Quienes somos?</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#footer">Redes</a>
                       </li>
                     </ul>
                     <span class="navbar-text">
@@ -35,6 +41,8 @@
                   </div>
                 </div>
               </nav>
+            </div>
+            </div>
         </header>
     
       <main>
@@ -53,20 +61,21 @@
             </div>
         </section>
       </main>
-      <section class="mainblog">
-
+    <section class="mainblog" id="catalogo">
+        <div class="blog">
           <div class="blogtitulos">
             <h2>¿No sabes qué estilo usar?</h2>
             <h3>Elige el tipo de música que más se acomode a tu proyecto</h3>
           </div>
 
         <article class="audios">
-
           <div class="player">
+          <div class="imgaudio">
             <div class="imgbox">
               <img src="/LandingPage/img/synphonicmusic.jpg" alt="AW">
             </div>
             <audio class="audio" src="/LandingPage/audio/synphonicmusic.mp3" type="audio/mp3" controls></audio>
+          </div>
             <div class="descripcion">
               <h3>Sinfónico</h3>
               <p>Un estilo épico, compuesto por diferentes instrumentos orquestales, adaptable a escenarios al más estilo Dark Souls.</p>
@@ -74,10 +83,12 @@
           </div>
 
           <div class="player">
+            <div class="imgaudio">
             <div class="imgbox">
               <img src="/LandingPage/img/rockmusic.jpg" alt="">
             </div>
             <audio class="audio" src="/LandingPage/audio/rockmusic.mp3" type="audio/mp3" controls></audio>
+          </div>
             <div class="descripcion">
               <h3>¿Rock o Metal?</h3>
               <p>Para los amantes del riesgo y la aventura, un estilo ideal para los deportes y la adrenalina, tú construyes la historia.</p>
@@ -85,19 +96,22 @@
           </div>
 
           <div class="player">
+            <div class="imgaudio">
             <div class="imgbox">
               <img src="/LandingPage/img/synthwavemusic.jpg" alt="">
             </div>
             <audio class="audio" src="/LandingPage/audio/synthwavemusic.mp3" type="audio/mp3" controls></audio>
+          </div>
             <div class="descripcion">
             <h3>Synthwave</h3>
               <p>Sin duda, uno de los estilos más cotizados al día de hoy. Combina esa sensación de nostalgia de los 80's con lo moderno.</p>
             </div>
           </div>
-
+        </div>
         </article>
     </section>
-    <section class="somos">
+    <section class="mainsomos" id="quienesomos">
+      <div class="somos">
       <div class="somostext">
         <h1>Quienes somos</h1>
         <p>MS Studios está conformado por una sola persona, Mario Sanhueza. Lleva años en la industria de la música, finalizando proyectos para diferentes empresas publicitarias como también en la industria de los videojuegos, creando bandas sonoras inmersivas para cada producto solicitado.</p>
@@ -105,9 +119,10 @@
       <div class="somosimg">
         <img src="/LandingPage/img/mario.jpg" alt="">
       </div>
+    </div>
     </section>
     <footer>
-      <div class="footer">
+      <div class="footer" id="footer">
         <div class="empresayuda">
         <div class="empresa">
 
