@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Landing Page Mario Sanhueza</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="https://w7.pngwing.com/pngs/87/368/png-transparent-soundbar-logo-equalization-music-sound-bars-angle-text-rectangle.png">
         <link href="/LandingPage/styles.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/d960609197.js" crossorigin="anonymous"></script>
 
@@ -46,17 +47,18 @@
         </header>
     
       <main>
-        <section class="jumbotron">
+        <section class="jumbotron" id="jumbotron">
             <div>
                     <h1>Música para todos tus proyectos</h1>
                     <p>Pistas de audio a partir de US$15 el minuto. Ahorra un 50% en tu primer pedido.</p>
                     <p>Inscríbete y te notificaremos de las ofertas y promociones del mes.</p>
-                    <div class="enviarcorreo">
-                    <input type="email" name="correo" class="correo">
+                    <form action="#" method="post" class="enviarcorreo">
+                      <input type="email" name="correo" class="correo">
                         <div class="contenedor">
-                            <button class="btnenviar">Envia</button>
+                        <button class="btnenviar" type="submit">Envia</button>
                         </div>
-                    </div>
+                      </form>
+                    
                     <a>Obtén pistas unicas para tus proyectos. Sé único y original con música personalizada especialmente para ti.</a>
             </div>
         </section>
@@ -127,10 +129,10 @@
         <div class="empresa">
 
           <h2>Empresa</h2>
-          <a href="#">Quienes somos</a>
+          <a href="#quienesomos">Quienes somos</a>
           <a href="#">Legal</a>
           <a href="#">Empleo</a>
-          <a href="#">Catálogo</a>
+          <a href="#catalogo">Catálogo</a>
 
         </div>
         <div class="ayuda">
@@ -149,7 +151,7 @@
           <a href="#">Mejor Precio Garantizado</a>
           <a href="#">Nuestras Licencias</a>
           <a href="#">Paquetes de Crédito</a>
-          <a href="#">Suscripciones</a>
+          <a href="#jumbotron">Suscripciones</a>
           <a href="#">Empresa</a>
           <a href="#">Ayuda para Proyecto Gratuito</a>
           
@@ -160,7 +162,7 @@
         <a href="https://www.facebook.com/mario.sanhuezagarces/"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.youtube.com/user/metalmasster/featured"><i class="fa-brands fa-youtube"></i></a>
         <a href="https://www.linkedin.com/in/mario-sanhueza-garc%C3%A9s-0717095b/"><i class="fa-brands fa-linkedin"></i></a>
-          
+        <a href="https://open.spotify.com/artist/4AIfdQrBJ9uYAcYISKV2jY"><i class="fa-brands fa-spotify"></i></a>
         </div>
       </div>
     </footer>
