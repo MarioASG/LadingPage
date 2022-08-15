@@ -112,7 +112,7 @@ main {
 }
 .blog{
     width: 1170px;
-    padding: 0 30px;
+    padding-top: 30px;
     margin: auto;
 }
 .blogtitulos{
@@ -138,27 +138,53 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    grid-template-areas:
+    'a a a'
+    'b c d';
+    padding-bottom: 150px;
 }
-.player{
+.genre{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left #a50e0e, #9a9a9a);
+    align-items: center;
+    width: 670px;
+    padding: 10px 50px;
+    grid-area: a;
+    border-radius: 20px;
+    box-shadow: 0 50px 80px #071e54;
+}
+
+.player1{
+    grid-area: b;
+}
+.player2{
+    grid-area: c;
+}
+.player3{
+    grid-area: d;
+}
+
+.player1, .player2, .player3{
     width: 350px;
     background: #f1f3f4;
     border-radius: 20px;
     box-shadow: 0 50px 80px #071e54;
 }
-.player .imgbox1{
+.player1 .imgbox1, .player2 .imgbox1, .player3 .imgbox1{
     position: relative;
     width: 100%;
 }
-.player .imgbox img{
+.player1 .imgbox img, .player2 .imgbox img, .player3 .imgbox img{
     top: 0;
     left: 0;
-    width: 100%;
+    width: 350px;
+    height: 291px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .audio{
     width: 100%;
-    outline: none;
 }
 
 .descripcion{
@@ -172,10 +198,13 @@ main {
 .audios h3{
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 .audios p{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 /* SOMOS */

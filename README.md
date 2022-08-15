@@ -1,4 +1,4 @@
-![](/readmeimg/guitarra.jpg)
+
 
 # PROYECTO 1: LandingPage
 
@@ -14,7 +14,7 @@ La pagina se divide en 5 secciones:
 
 ### NAVBAR
 
-![](/readmeimg/navbar.png)
+url: navbar
 
 Barra diseñada con boostrap y personalizada con CSS. 
 - La parte izquierda consta del nombre de la empresa y su logo.
@@ -23,26 +23,25 @@ Barra diseñada con boostrap y personalizada con CSS.
 
 ### JUMBOTRON
 
-![](/readmeimg/jumbotron.png)
+url: Jumbotron
 
 En esta sección se muestra un título H1 enorme que capta la atención del cliente, especificando que hay música para todos los proyectos del cliente, seguido de una oferta cautivadora y posteriormente, una barra con un encabezado indicando que si se suscribe obtendrá información sobre cuando hayan ofertas y promociones en el mes.
 
 ### CATÁLOGO (BLOG)
 
-![](/readmeimg/catalogo.png)
+url: catalogo
 
 Aquí se encuentran 3 canciones de diferentes estilos, inscrustadas en columnas diseñadas con Css grid. Las canciones llevan sus controles correspondientes, ya sea para reproducir, detener o manejar el volumen de éstas.
 
 ### QUIENES SOMOS
 
-![](/readmeimg/quienessomos.png)
-
+url: quienes somos
 
 Con una foto a la derecha y una breve descripción de mis servicios, se muestra una sección corta con el fin de entregar mayor información sobre como está conformada la empresa.
 
-### FOOTER
+###FOOTER
 
-![](/readmeimg/footer.png)
+url: footer
 
 Lugar donde se muestran las secciones de la pagina, en sumayoría no funcionales.
 Sin embargo, "Quienes somos", "Catálogo" y "Suscripciones" llevan a las diferentes secciones de la página.
