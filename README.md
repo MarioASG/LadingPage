@@ -41,7 +41,7 @@ Aquí se encuentran 3 canciones para 3 estilos musicales diferentes, inscrustada
 
 Con una foto a la derecha y una breve descripción de mis servicios, se muestra una sección corta con el fin de entregar mayor información sobre como está conformada la empresa.
 
-###FOOTER
+### FOOTER
 
 ![](readmeimg/footer.png)
 
